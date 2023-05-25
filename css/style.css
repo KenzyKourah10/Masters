@@ -184,6 +184,15 @@ h1, h2, h3, h4, h5, h6, figure {
   border-width: 8px;
   margin-left: -8px;
 }
+
+.button-container {
+  display: flex;
+}
+
+.button-container p {
+  margin-right: 10px;
+}
+
 .gtco-nav ul li.has-dropdown .dropdown li {
   display: block;
   margin-bottom: 7px;
@@ -240,6 +249,7 @@ h1, h2, h3, h4, h5, h6, figure {
     text-align: center !important;
   }
 }
+
 @media screen and (max-width: 480px) {
   #gtco-header .btn {
     display: block;
