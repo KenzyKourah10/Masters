@@ -72,10 +72,10 @@
 					</div>
 					<div class="col-xs-8 text-right menu-1">
 						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="#gtco-subscribe">Sign-In</a></li>
-							<li><a href="register.html">Register</a></li>
+							<li class="active"><a href="register.html">Register</a></li>
 						</ul>
 					</div>
 				</div>
@@ -142,21 +142,35 @@
 
 						<div class="row form-group">
 							<div id="registering" class="col-md-12">
-								<label id="mylabel" for="city">City</label>
+								<label id="mylabel" for="password">Create Password</label required>
+								<input type="password" id="password" class="form-control" placeholder="Write Your Password Here">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div id="registering" class="col-md-12">
+								<label id="mylabel" for="password2"></label required>
+								<input type="password" id="password2" class="form-control" placeholder="Rewrite Your Password for Confirmation">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div id="registering" class="col-md-12">
+								<label id="mylabel" for="city">City</label required>
 								<input type="text" id="city" class="form-control" placeholder="Enter Your City of Residence Here">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div id="registering" class="col-md-12">
-								<label id="mylabel" for="zip">Zip Code</label> 
+								<label id="mylabel" for="zip">Zip Code</label required> 
 								<input type="text" id="zip" class="form-control" placeholder="Enter Your Zip Code Here">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div id="registering" class="col-md-12">
-								<label id="mylabel" for="address">Address</label>
+								<label id="mylabel" for="address">Address</label required>
 								<textarea name="message" id="address" cols="20" rows="3" class="form-control" placeholder="Enter Your Full Home Address Here"></textarea>
 							</div>
 						</div>
@@ -165,7 +179,7 @@
 
 						<div class="row form-group">
 							<div id="registering" class="col-md-12">
-								<label id="mylabel" for="Birthdate">Birthdate</label>
+								<label id="mylabel" for="Birthdate">Birthdate</label required>
 								<input type="date" id="Birthdate" class="form-control" placeholder="Enter Your Birthdate Here">
 							</div>
 						</div>
