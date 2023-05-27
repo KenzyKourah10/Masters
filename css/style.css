@@ -1993,8 +1993,8 @@ form label {
 #checkboxes{
   display: flex;
   flex-direction: row;
-  padding: 1px;
-  padding-bottom: 5px;
+
+  width: 800px;
 }
 
 #mylabel{
